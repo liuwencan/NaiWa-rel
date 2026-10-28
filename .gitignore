@@ -1,0 +1,42 @@
+# Python cache and tooling
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging and build output
+build/
+build_fixed/
+dist/
+dist_fixed/
+*.egg-info/
+
+# Local IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local environment and logs
+.env
+.env.*
+!.env.example
+*.log
+
+# Local screenshots and temporary files
+desktop_check*.png
+desktop_fixed_check*.png
+*.tmp
+*.bak
+Thumbs.db
+ehthumbs.db
